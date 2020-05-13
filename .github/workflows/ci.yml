@@ -11,4 +11,3 @@ jobs:
         name: skysensejp/data-tools
         username: skysensejp
         password: ${{ secrets.DOCKER_PASSWORD }}
-        workdir: src
