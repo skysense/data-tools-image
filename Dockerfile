@@ -11,4 +11,4 @@ RUN gcloud --help
 RUN apt-get update && apt-get install -y build-essential cmake gfortran
 COPY requirements.txt .
 RUN pip install --upgrade flake8 wheel pip
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
