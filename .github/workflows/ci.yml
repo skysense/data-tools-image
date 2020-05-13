@@ -8,7 +8,7 @@ jobs:
     - name: Publish to Registry
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
-        name: skysense/data-tools-image/data-tools-image
-        username: ${{ github.actor }}
-        password: ${{ github.token }}
-        registry: docker.pkg.github.com
+        name: skysensejp/data-tools
+        username: skysensejp
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        workdir: src
