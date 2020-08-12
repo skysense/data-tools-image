@@ -17,3 +17,4 @@ coloredlogs
 attrs
 git+https://git@github.com/skysense/imagededup.git@master#egg=imagededup
 git+https://git@github.com/skysense/CRAFT-pytorch.git@master#egg=craft-pytorch
+git+https://github.com/smarnach/pyexiftool.git@master#egg=pyexiftool
